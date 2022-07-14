@@ -19,16 +19,16 @@ function App() {
   var updatedMs = time.ms, updatedS = time.s, updatedM = time.m, updatedH = time.h;
 
   const run = () => {
-    if (updatedM === 60) {
+    if (updatedM === 100) {
       updatedH++;
       updatedM = 0;
 
     }
-    if (updatedS === 60) {
+    if (updatedS === 100) {
       updatedM++;
       updatedS = 0;
     }
-    if (updatedMs === 60) {
+    if (updatedMs === 100) {
       updatedS++;
       updatedMs = 0;
     }

@@ -1,5 +1,4 @@
 body {
-  /* background: #2c3e50; */
   background: linear-gradient(45deg, #2d035e, #db8008);
   animation: gradient 10s ease infinite;
   background-size: 200% 200%;
@@ -43,6 +42,7 @@ background: linear-gradient(45deg, #2207bb, #f0cd35);
 }
 
 .stopwatch {
+  margin-top: 250px;
   padding: 60px 0px;
   text-align: center;
 }
@@ -55,6 +55,7 @@ background: #000801;
     font-size: 41px;
     border-radius: 5px;
     width: 100px;
+    
 }
 
 .stopwatch .stopwatch__btn {
